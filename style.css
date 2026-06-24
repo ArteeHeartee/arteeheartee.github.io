@@ -144,3 +144,6 @@ footer h3 {
         padding-top: 60px;
     }
 }
+.andreas-photo {
+    object-position: center top !important;
+}
