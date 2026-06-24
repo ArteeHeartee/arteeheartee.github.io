@@ -7,14 +7,20 @@
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body id="top">
 
 <nav>
-    <div class="logo">ArteeHeartee 🐾</div>
+    <div class="logo">
+        <a href="#top">ArteeHeartee 🐾</a>
+    </div>
+
     <div class="nav-links">
+        <a href="#top">Home</a>
         <a href="#crew">Crew</a>
         <a href="#videos">Videos</a>
         <a href="#boutique">Fur Boutique™</a>
+        <a href="https://www.tiktok.com/@arteeheartee" target="_blank" class="nav-social">♪</a>
+        <a href="https://www.youtube.com/@ArteeHeartee" target="_blank" class="nav-social">▶</a>
     </div>
 </nav>
 
@@ -126,8 +132,18 @@
 
 <footer>
     <h3>ArteeHeartee 🐾</h3>
-    <p>Powered by fluff, chaos, and poor business decisions.</p>
-    <p>TikTok · YouTube · Contact</p>
+
+    <p>
+        Powered by fluff, chaos, and poor business decisions.
+    </p>
+
+    <p class="footer-links">
+        <a href="https://www.tiktok.com/@arteeheartee" target="_blank">TikTok</a>
+        ·
+        <a href="https://www.youtube.com/@ArteeHeartee" target="_blank">YouTube</a>
+        ·
+        <a href="#" onclick="contactPopup()">Contact</a>
+    </p>
 </footer>
 
 <script>
@@ -135,6 +151,12 @@ function furMessage() {
     alert("Thank you for your interest in cat fur. Our legal department, also known as Lydia and London, is reviewing this opportunity.");
 }
 </script>
-
+<script>
+function contactPopup() {
+    const subject = encodeURIComponent("Message from ArteeHeartee website");
+    const body = encodeURIComponent("Hi Andreas,\n\nI wanted to contact ArteeHeartee about:\n\n");
+    window.location.href = "mailto:andreasrtee@gmail.com?subject=" + subject + "&body=" + body;
+}
+</script>
 </body>
 </html>
