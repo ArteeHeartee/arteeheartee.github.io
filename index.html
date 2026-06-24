@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>ArteeHeartee</title>
-
 <link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 
 <nav>
-    <div class="logo">ArteeHeartee</div>
-
+    <div class="logo">ArteeHeartee 🐾</div>
     <div class="nav-links">
         <a href="#crew">Crew</a>
         <a href="#videos">Videos</a>
@@ -24,151 +19,122 @@
 </nav>
 
 <header class="hero">
+    <div class="hero-text">
+        <h1>ArteeHeartee</h1>
+        <p>Life with two ragdolls, one human, and an alarming amount of fur.</p>
 
-    <h1>ArteeHeartee</h1>
+        <div class="hero-buttons">
+            <a href="#videos" class="button primary">▶ Watch Videos</a>
+            <a href="#crew" class="button secondary">🐾 Meet The Crew</a>
+        </div>
+    </div>
 
-    <p>
-        Life with two ragdolls, one human, and an alarming amount of fur.
-    </p>
-
-    <img
-        src="images/LydiaLondon Holding BIG.jpg"
-        alt="Lydia and London"
-        class="hero-image">
-
+    <img src="images/LydiaLondon Holding BIG.jpg" alt="Lydia and London" class="hero-image">
 </header>
 
 <section id="crew" class="section">
-
     <h2>Meet The Crew</h2>
+    <div class="section-icon">🐾</div>
 
     <div class="cards">
-
-        <div class="card">
+        <div class="card profile pink">
             <img src="images/Lydia1.jpg" alt="Lydia">
-
-            <h3>Lydia</h3>
-
-            <p>Professional napper.</p>
-            <p>Treat quality inspector.</p>
-            <p>Known for judging humans.</p>
+            <h3>Lydia 🐾</h3>
+            <p>💤 Professional napper.</p>
+            <p>🍱 Treat quality inspector.</p>
+            <p>😼 Known for judging humans.</p>
         </div>
 
-        <div class="card">
+        <div class="card profile blue">
             <img src="images/London1.jpg" alt="London">
-
-            <h3>London</h3>
-
-            <p>Director of fluff distribution.</p>
-            <p>Certified cuddle expert.</p>
-            <p>Occasionally cooperative.</p>
+            <h3>London 🐾</h3>
+            <p>☁️ Director of fluff distribution.</p>
+            <p>💗 Certified cuddle expert.</p>
+            <p>🐾 Occasionally cooperative.</p>
         </div>
 
-        <div class="card">
-            <img src="images/ART.jpg" alt="Andreas" class="andreas-photo">
-
-            <h3>Artee</h3>
-
-            <p>Human assistant.</p>
-            <p>Camera operator.</p>
-            <p>Full-time snack provider.</p>
+        <div class="card profile purple">
+            <img src="images/ART.jpg" alt="Andreas">
+            <h3>Andreas 🐾</h3>
+            <p>🧍 Human assistant.</p>
+            <p>📸 Camera operator.</p>
+            <p>🧀 Full-time snack provider.</p>
         </div>
-
     </div>
-
 </section>
 
 <section id="boutique" class="section">
-
     <h2>Fur Boutique™</h2>
-
-    <p class="subtitle">
-        Luxury, exclusivity, and absolutely no practical purpose.
-    </p>
+    <p class="subtitle">Luxury, exclusivity, and absolutely no practical purpose.</p>
 
     <div class="cards">
-
-        <div class="card">
-
+        <div class="card product pink">
+            <div class="badge">🪶</div>
             <h3>Lydia Reserve™</h3>
-
-            <p>★★★★★</p>
-
-            <p>
-                Collected from only the finest brushing sessions.
-            </p>
-
-            <p>299 NOK</p>
-
+            <p class="stars">★★★★★</p>
+            <p>Collected from only the finest brushing sessions.</p>
+            <p class="price">299 NOK</p>
+            <button onclick="furMessage()">🛒 Add To Cart</button>
         </div>
 
-        <div class="card">
-
+        <div class="card product blue">
+            <div class="badge">🪶</div>
             <h3>London Signature™</h3>
-
-            <p>★★★★★</p>
-
-            <p>
-                Exceptionally fluffy. Naturally dramatic.
-            </p>
-
-            <p>349 NOK</p>
-
+            <p class="stars">★★★★★</p>
+            <p>Exceptionally fluffy. Naturally dramatic.</p>
+            <p class="price">349 NOK</p>
+            <button onclick="furMessage()">🛒 Add To Cart</button>
         </div>
 
-        <div class="card">
-
+        <div class="card product purple">
+            <div class="badge">?</div>
             <h3>Mystery Blend™</h3>
-
-            <p>★★★★★</p>
-
-            <p>
-                Origins unknown. Quality unquestionable.
-            </p>
-
-            <p>199 NOK</p>
-
+            <p class="stars">★★★★★</p>
+            <p>Origins unknown. Quality unquestionable.</p>
+            <p class="price">199 NOK</p>
+            <button onclick="furMessage()">🛒 Add To Cart</button>
         </div>
-
     </div>
 
+    <p class="disclaimer">*All products are 100% authentic. Not approved for actual use. 🐱</p>
 </section>
 
 <section id="videos" class="section">
-
     <h2>Follow ArteeHeartee</h2>
+    <div class="section-icon">🐾</div>
 
-    <div class="cards">
+    <div class="socials">
+        <a class="social-card" href="https://www.tiktok.com/@arteeheartee" target="_blank">
+            <span class="social-icon">♪</span>
+            <div>
+                <h3>TikTok</h3>
+                <p>@arteeheartee</p>
+            </div>
+            <span class="arrow">→</span>
+        </a>
 
-        <div class="card">
-            <h3>TikTok</h3>
-
-            <a href="https://www.tiktok.com/@arteeheartee" target="_blank">
-                @arteeheartee
-            </a>
-        </div>
-
-        <div class="card">
-            <h3>YouTube</h3>
-
-            <a href="https://www.youtube.com/@ArteeHearteee" target="_blank">
-                ArteeHeartee
-            </a>
-        </div>
-
+        <a class="social-card" href="https://www.youtube.com/@ArteeHeartee" target="_blank">
+            <span class="social-icon youtube">▶</span>
+            <div>
+                <h3>YouTube</h3>
+                <p>ArteeHeartee</p>
+            </div>
+            <span class="arrow">→</span>
+        </a>
     </div>
-
 </section>
 
 <footer>
-
-    <h3>ArteeHeartee</h3>
-
-    <p>
-        Powered by fluff, chaos, and poor business decisions.
-    </p>
-
+    <h3>ArteeHeartee 🐾</h3>
+    <p>Powered by fluff, chaos, and poor business decisions.</p>
+    <p>TikTok · YouTube · Contact</p>
 </footer>
+
+<script>
+function furMessage() {
+    alert("Thank you for your interest in cat fur. Our legal department, also known as Lydia and London, is reviewing this opportunity.");
+}
+</script>
 
 </body>
 </html>
