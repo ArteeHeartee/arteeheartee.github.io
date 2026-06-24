@@ -361,3 +361,29 @@ footer h3 {
         height: 320px;
     }
 }
+.logo a {
+    text-decoration: none;
+    color: #11142a;
+}
+
+.nav-social {
+    font-size: 1.2rem;
+    background: #11142a;
+    color: white !important;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    display: inline-grid;
+    place-items: center;
+    margin-left: 14px !important;
+}
+
+.footer-links a {
+    color: #11142a;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.footer-links a:hover {
+    color: #7c3aed;
+}
