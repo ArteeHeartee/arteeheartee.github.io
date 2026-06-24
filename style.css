@@ -66,9 +66,9 @@ nav {
 
 .hero-image {
     width: min(900px, 92%);
-    height: 520px;
+    height: 460px;
     object-fit: cover;
-    object-position: center 35%;
+    object-position: center top;
     border-radius: 28px;
     box-shadow: 0 25px 60px rgba(0, 0, 0, 0.18);
 }
